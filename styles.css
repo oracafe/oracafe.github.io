@@ -1,0 +1,249 @@
+/* Global Reset */
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css');
+.fab {
+    padding: 10px;
+    font-size: auto;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    margin: 2px 2px;
+}
+
+.fab:hover {
+    opacity: 0.6;
+}
+
+.fa-facebook-f {
+    background: #3B5998#313131;
+    color: white;
+}
+
+.fa-discord {
+    background: linear-gradient(145deg, #c3ff1f, #2a3f8e);
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-google {
+    background: #dd4b39;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: rgb(0, 0, 0);
+}
+
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+
+.fa-instagram {
+    background: #fffc00;
+    color: rgb(0, 0, 0);
+}
+
+.fa-tiktok {
+    background: #fffc00;
+    color: black;
+}
+
+.fa-snapchat-ghost {
+    background: #fffc00;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.fa-skype {
+    background: #00aff0;
+    color: white;
+}
+
+.fa-android {
+    background: #a4c639;
+    color: white;
+}
+
+.fa-dribbble {
+    background: #ea4c89;
+    color: white;
+}
+
+.fa-vimeo {
+    background: #45bbff;
+    color: white;
+}
+
+.fa-tumblr {
+    background: #2c4762;
+    color: white;
+}
+
+.fa-vine {
+    background: #00b489;
+    color: white;
+}
+
+.fa-foursquare {
+    background: #45bbff;
+    color: white;
+}
+
+.fa-stumbleupon {
+    background: #eb4924;
+    color: white;
+}
+
+.fa-flickr {
+    background: #f40083;
+    color: white;
+}
+
+.fa-yahoo {
+    background: #430297;
+    color: white;
+}
+
+.fa-soundcloud {
+    background: #ff5500;
+    color: white;
+}
+
+.fa-github {
+    background: #2c2b2b;
+    color: white;
+}
+
+.fa-reddit {
+    background: #ff5700;
+    color: white;
+}
+
+.icon-thumbnail {
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    border-radius: 15px;
+}
+
+.profile-img img {
+    max-width: 100%;
+    height: auto;
+    width: 134px;
+    /* Örnek: 150 piksel genişliğinde bir profil resmi */
+    border-radius: 30%;
+    /* Profil resminin kenarlarını yuvarlatma */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+
+/* Body & Container */
+
+body {
+    background-color: #0f0f0f;
+    color: #fff;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+
+/* Content Box */
+
+.content {
+    text-align: center;
+    background: linear-gradient(145deg, #1c1c1c, #383838);
+    border-radius: 20px;
+    padding: 40px 60px;
+    box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.3);
+    max-width: 500px;
+    width: 100%;
+}
+
+
+/* Logo */
+
+.logo {
+    width: 200px;
+    height: auto;
+    margin-bottom: 20px;
+    animation: fadeIn 2s ease-in-out;
+}
+
+
+/* Heading */
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    font-weight: 600;
+    animation: fadeIn 2s ease-in-out 0.5s forwards;
+    opacity: 0;
+    color: #f4d03f;
+}
+
+
+/* Paragraph */
+
+p {
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+    animation: fadeIn 2s ease-in-out 1s forwards;
+    opacity: 0;
+    color: #ccc;
+}
+
+
+/* Loading Spinner */
+
+.spinner {
+    width: 60px;
+    height: 60px;
+    border: 6px solid rgba(244, 208, 63, 0.3);
+    border-top: 6px solid #f4d03f;
+    border-radius: 50%;
+    animation: spin 1.5s linear infinite, fadeIn 2s ease-in-out 1.5s forwards;
+    opacity: 0;
+    margin: 0 auto;
+}
+
+
+/* Animations */
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
