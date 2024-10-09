@@ -1,0 +1,227 @@
+/* Gri ve siyah arka plan ile sarı vurgulu tasarım */
+
+body {
+    font-family: 'Poppins', Bold;
+    background-color: #2e2e2e;
+    background-image: url('ew.png');
+    /* Resmin URL'sini buraya koyun */
+    background-position: left top;
+    /* Sol üst köşeye yerleştirir */
+    background-repeat: no-repeat;
+    /* Tekrar etmesini engeller */
+    color: #f1f1f1;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+header {
+    text-align: center;
+    padding: 40px;
+    background-color: #ffd700;
+    /* Gün ışığı sarısı */
+    color: #2e2e2e;
+    /* Koyu gri yazılar */
+    border-radius: 10px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+nav {
+    margin: 20px 0;
+    text-align: center;
+}
+
+main {
+    margin-top: 20px;
+}
+
+h2 {
+    color: #ffd700;
+    /* Sarı başlıklar */
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #ffd700;
+    /* Sarı vurgulu alt çizgi */
+}
+
+.fixture-grid,
+.teams-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.fixture-grid .match,
+.teams-container .team-card {
+    background-color: #393939;
+    /* Daha koyu gri kartlar */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    /* Hafif gölge */
+    transition: transform 0.3s ease;
+}
+
+.fixture-grid .match:hover,
+.teams-container .team-card:hover {
+    transform: translateY(-5px);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table,
+th,
+td {
+    border: 1px solid #555;
+    /* Hafif koyu gri çizgiler */
+}
+
+th,
+td {
+    padding: 15px;
+    text-align: center;
+}
+
+th {
+    background-color: #ffd700;
+    /* Sarı başlık hücreleri */
+    color: #2e2e2e;
+    /* Koyu yazılar */
+    font-weight: 600;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #444;
+    /* Hafif siyah arka plan */
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #2e2e2e;
+    color: #6c757d;
+    margin-top: 20px;
+}
+
+header h1 {
+    font-family: 'Barlow Condensed', sans-serif;
+    /* Yeni fontu sadece bu h1 için uygular */
+    font-weight: 900;
+    font-size: 4rem;
+    /* Kalınlık için */
+}
+
+nav ul {
+    list-style-type: none;
+    /* Varsayılan madde işaretlerini kaldırır */
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    /* Menü öğelerini yan yana dizmek için */
+    margin-right: auto;
+    /* Menü öğeleri arasında boşluk bırakır */
+}
+
+nav ul li a {
+    background-color: #393939;
+    /* Kutucuk arka plan rengi */
+    color: #ffd700;
+    /* Metin rengi */
+    padding: 10px 15px;
+    /* Kutucuk içinde boşluk (padding) */
+    border-radius: 5px;
+    /* Kenarları yuvarlatır */
+    text-decoration: none;
+    /* Alt çizgiyi kaldırır */
+    font-weight: 600;
+    /* Metni kalın yapar */
+    transition: background-color 0.3s;
+    /* Geçiş efekti */
+}
+
+nav ul li a:hover {
+    background-color: #ffd700;
+    /* Üzerine gelindiğinde arka plan rengi */
+    color: #2e2e2e;
+    /* Üzerine gelindiğinde metin rengi */
+}
+
+@media (max-width: 768px) {
+    .fixture-grid,
+    .teams-container {
+        grid-template-columns: 1fr;
+    }
+    nav ul li {
+        display: block;
+        margin-bottom: 30px;
+    }
+    header h1 {
+        font-size: 2.5rem;
+        /* Başlık boyutunu küçült */
+    }
+}
+
+#rules h2 {
+    color: #ffd700;
+    margin-bottom: 20px;
+}
+
+#rules ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+#rules ul li {
+    margin-bottom: 10px;
+    color: #f1f1f1;
+}
+
+a {
+    color: #ffd700;
+    /* Sarı renk */
+    text-decoration: none;
+    /* Alt çizgi kaldırılır */
+}
+
+a:hover {
+    color: #ffcc00;
+    /* Hover (üzerine gelindiğinde) için hafif farklı bir sarı tonu */
+    text-decoration: underline;
+    /* İsteğe bağlı olarak hover'da alt çizgi ekleyebilirsin */
+}
+
+::selection {
+    background-color: #ffd700;
+    /* Seçim arka planını sarı yapar */
+    color: #2e2e2e;
+    /* Seçilen metnin rengini koyu gri yapar */
+}
+
+.footer-logo {
+    width: 100px;
+    /* Logonun genişliği */
+    height: auto;
+    /* Orantılı yüksekliği */
+    display: block;
+    /* Blok eleman yapar */
+    margin: 5px auto 0;
+    /* Ortalamak için ve üstüne boşluk eklemek için */
+}
