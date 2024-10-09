@@ -1,13 +1,34 @@
-/*const fixtureData = [
-    { date: '2024-10-10', time: '14:00', team1: 'Takım A', team2: 'Takım B' },
-    { date: '2024-10-10', time: '16:00', team1: 'Takım C', team2: 'Takım D' },
+const fixtureData = [
+    { date: '2024-09-11 (CUMARTESİ)', time: '11.00', team1: 'İbrahim Dağ', team2: 'Berat Gölpınar' },
+    { date: '2024-09-11 (CUMARTESİ)', time: '11.00', team1: 'Muhammed Talha Ayvalı', team2: 'Ahmet Utku Özel' },
+    { date: '2024-09-11 (CUMARTESİ)', time: '11.00', team1: 'Emre Kaya', team2: 'Hamid Heemati' },
+    { date: '2024-09-11 (CUMARTESİ)', time: '11.00', team1: 'Muhammed Enes Göze', team2: 'Mustafa Can' },
+    { date: '2024-09-11 (CUMARTESİ)', time: '11.00', team1: 'İbrahim Efe Küpeli', team2: 'Emir Afşar' },
+    { date: '2024-09-11 (CUMARTESİ)', time: '12.00', team1: 'Mustafa Kemal Keylan', team2: 'Bekir Çömez' },
+    { date: '2024-09-11 (CUMARTESİ)', time: '12.00', team1: 'Alperem Ballı', team2: 'Yusuf Paldır' },
+    { date: '2024-09-11 (CUMARTESİ)', time: '12.00', team1: 'Mustafa Büyükköroğlu', team2: 'Caner Aktepe' },
+    { date: '2024-09-11 (CUMARTESİ)', time: '12.00', team1: 'Yakup Taha Yıldırım', team2: 'Ahmet Baran Çifçi' },
+    { date: '2024-09-11 (CUMARTESİ)', time: '12.00', team1: 'Abdul Moqtadir Jamil', team2: 'Selahattin Eyüp Gürkan' },
+    { date: '2024-09-12 (PAZAR)', time: '11.00', team1: 'Furkan Doğan', team2: 'Ertuğrul Meral' },
+    { date: '2024-09-12 (PAZAR)', time: '11.00', team1: 'Mustafa Ayberk Aydemir', team2: 'Ali Osman Köse' },
+    { date: '2024-09-12 (PAZAR)', time: '11.00', team1: 'Fatih Yılmaz', team2: 'Hasan Şefik' },
+    { date: '2024-09-12 (PAZAR)', time: '11.00', team1: 'Kubilay Dikçal', team2: 'Ayberk' },
+    { date: '2024-09-12 (PAZAR)', time: '11.00', team1: 'Eren Ataş', team2: 'Erdem Deka' },
+    { date: '2024-09-12 (PAZAR)', time: '11.00', team1: 'Umut Kepenek', team2: 'Yiğit Emre' },
+    { date: '2024-09-12 (PAZAR)', time: '12.00', team1: 'Abdulkerim Karademir', team2: 'Mehmet Bacak' },
+    { date: '2024-09-12 (PAZAR)', time: '12.00', team1: 'Egemen Demirel', team2: 'Levent Birbaş' },
+    { date: '2024-09-12 (PAZAR)', time: '12.00', team1: 'Kerem Polat', team2: 'Burak Pek' },
+    { date: '2024-09-12 (PAZAR)', time: '12.00', team1: 'Emad Kaild', team2: 'Efe Çakıcı' },
+    { date: '2024-09-12 (PAZAR)', time: '12.00', team1: 'Berat Bacak', team2: 'Burak Kotan' },
+
+
 ];
 /*
 const standingsData = [
     { team: 'Takım A', played: 2, wins: 1, draws: 1, losses: 0, points: 4, gd: 3 },
     { team: 'Takım B', played: 2, wins: 0, draws: 1, losses: 1, points: 1, gd: -1 },
 ];
-/*
+
 const teamsData = [
     { name: 'Takım A', description: 'Güçlü savunma stratejisi.' },
     { name: 'Takım B', description: 'Hücum odaklı, yaratıcı bir takım.' },
