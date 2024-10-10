@@ -10,7 +10,7 @@ const fixtureData = [
     { date: '2024-09-11 (CUMARTESİ)', time: '12.00', team1: 'Yakup Taha Yıldırım', team2: 'Ahmet Baran Çifçi' },
     { date: '2024-09-11 (CUMARTESİ)', time: '12.00', team1: 'Abdul Moqtadir Jamil', team2: 'Selahattin Eyüp Gürkan' },
     { date: '2024-09-12 (PAZAR)', time: '11.00', team1: 'Furkan Doğan', team2: 'Ertuğrul Meral' },
-    { date: '2024-09-12 (PAZAR)', time: '11.00', team1: 'Mustafa Ayberk Aydemir', team2: 'Ali Osman Köse' },
+    { date: '2024-09-12 (PAZAR)', time: '11.00', team1: 'Talha Aydın', team2: 'Ali Osman Köse' },
     { date: '2024-09-12 (PAZAR)', time: '11.00', team1: 'Fatih Yılmaz', team2: 'Hasan Şefik' },
     { date: '2024-09-12 (PAZAR)', time: '11.00', team1: 'Kubilay Dikçal', team2: 'Ayberk' },
     { date: '2024-09-12 (PAZAR)', time: '11.00', team1: 'Eren Ataş', team2: 'Erdem Deka' },
@@ -20,15 +20,22 @@ const fixtureData = [
     { date: '2024-09-12 (PAZAR)', time: '12.00', team1: 'Kerem Polat', team2: 'Burak Pek' },
     { date: '2024-09-12 (PAZAR)', time: '12.00', team1: 'Emad Kaild', team2: 'Efe Çakıcı' },
     { date: '2024-09-12 (PAZAR)', time: '12.00', team1: 'Berat Bacak', team2: 'Burak Kotan' },
-
-
+    { date: '2024-09-13 (PAZARTESİ)', time: '18.00', team1: 'Mehmet Emin Mert', team2: 'Baran Doğu' },
+    { date: '2024-09-13 (PAZARTESİ)', time: '18.00', team1: 'Kaan Gülbil', team2: 'A. Hakan Avan' },
+    { date: '2024-09-13 (PAZARTESİ)', time: '18.00', team1: 'Husam Aqlan', team2: 'Ömer Kartal' },
+    { date: '2024-09-13 (PAZARTESİ)', time: '19.00', team1: 'Fatih Selek', team2: 'Batuhan Akın' },
+    { date: '2024-09-14 (SALI)', time: '18.00', team1: 'Tarık Enes', team2: 'Yusuf Korkmaz' },
+    { date: '2024-09-14 (SALI)', time: '18.00', team1: 'Ali Mustafa Çakar', team2: 'Ahmet Kubilay Şeker' },
+    { date: '2024-09-15 (ÇARŞAMBA)', time: '18.00', team1: 'Birkan Demir', team2: 'Yusuf Kağan Hasbek' },
+    { date: '2024-09-15 (ÇARŞAMBA)', time: '18.00', team1: 'Hakan İyidoğan', team2: 'Karahan Ünverdi' },
+    { date: '2024-09-15 (PERŞEMBE)', time: '19.00', team1: 'Emir Patlaktepe', team2: 'Volkan Gökçe' },
 ];
 /*
 const standingsData = [
     { team: 'Takım A', played: 2, wins: 1, draws: 1, losses: 0, points: 4, gd: 3 },
     { team: 'Takım B', played: 2, wins: 0, draws: 1, losses: 1, points: 1, gd: -1 },
 ];
-
+ ZİRVE TEK KİŞİLİK
 const teamsData = [
     { name: 'Takım A', description: 'Güçlü savunma stratejisi.' },
     { name: 'Takım B', description: 'Hücum odaklı, yaratıcı bir takım.' },
