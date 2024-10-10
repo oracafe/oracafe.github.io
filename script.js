@@ -28,7 +28,7 @@ const fixtureData = [
     { date: '2024-09-14 (SALI)', time: '18.00', team1: 'Ali Mustafa Çakar', team2: 'Ahmet Kubilay Şeker' },
     { date: '2024-09-15 (ÇARŞAMBA)', time: '18.00', team1: 'Birkan Demir', team2: 'Yusuf Kağan Hasbek' },
     { date: '2024-09-15 (ÇARŞAMBA)', time: '18.00', team1: 'Hakan İyidoğan', team2: 'Karahan Ünverdi' },
-    { date: '2024-09-15 (PERŞEMBE)', time: '19.00', team1: 'Emir Patlaktepe', team2: 'Volkan Gökçe' },
+    { date: '2024-09-15 (PERŞEMBE)', time: '19.00', team1: 'Emir Taplaktepe', team2: 'Volkan Gökçe' },
 ];
 /*
 const standingsData = [
