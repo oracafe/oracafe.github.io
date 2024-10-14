@@ -1,5 +1,5 @@
 const fixtureData = [
- { date: '2024-10-11 (CUMARTESİ)', time: '11.00', team1: 'İbrahim Dağ', team2: 'Berat Gölpınar' },
+    { date: '2024-10-11 (CUMARTESİ)', time: '11.00', team1: 'İbrahim Dağ', team2: 'Berat Gölpınar' },
     { date: '2024-10-11 (CUMARTESİ)', time: '11.00', team1: 'Muhammed Talha Ayvalı', team2: 'Ahmet Utku Özel' },
     { date: '2024-10-11 (CUMARTESİ)', time: '11.00', team1: 'Emre Kaya', team2: 'Hamid Heemati' },
     { date: '2024-10-11 (CUMARTESİ)', time: '11.00', team1: 'Muhammed Enes Göze', team2: 'Mustafa Can' },
@@ -28,7 +28,10 @@ const fixtureData = [
     { date: '2024-10-14 (SALI)', time: '18.00', team1: 'Ali Mustafa Çakar', team2: 'Ahmet Kubilay Şeker' },
     { date: '2024-10-15 (ÇARŞAMBA)', time: '18.00', team1: 'Birkan Demir', team2: 'Yusuf Kağan Hasbek' },
     { date: '2024-10-15 (ÇARŞAMBA)', time: '18.00', team1: 'Hakan İyidoğan', team2: 'Karahan Ünverdi' },
-    { date: '2024-10-16 (PERŞEMBE)', time: '19.00', team1: 'Emir Patlaktepe', team2: 'Volkan Gökçe' }
+    { date: '2024-10-16 (PERŞEMBE)', time: '19.00', team1: 'Emir Patlaktepe', team2: 'Volkan Gökçe' },
+    { date: '2024-10-17 (CUMA)', time: '18.00', team1: 'Emir Kazım Dikçal', team2: 'Uğur Güler' },
+    { date: '2024-10-17 (CUMA)', time: '19.00', team1: 'Bilal Gölbaşı', team2: 'Tuncay Delican' },
+
 ];
 /*
 const standingsData = [
