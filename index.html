@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
 
 <head>
     <link rel="icon" href="ora_logo_düzgün1.svg" type="image/svg" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ora Şampiyonlar Ligi</title>
+    <title>Ora PlayStation - Puan Durumu & Fikstür</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap" rel="stylesheet">
@@ -14,87 +14,55 @@
 <body>
     <div class="container">
         <header>
-            <h1>Ora Şampiyonlar Ligi</h1>
+            <nav>
+                <div class="logo">
+                    <h1>Ora PlayStation</h1>
+                </div>
+            </nav>
         </header>
 
-        <nav>
-            <ul>
-                <li><a href="#fixture">Fikstür</a></li>
-                <li><a href="#standings">Puan Tablosu</a></li>
-                <li><a href="#teams">Takımlar</a></li>
-                <li><a href="#rules">Kurallar</a></li>
-                <!-- Menüye kurallar bağlantısı ekliyoruz -->
-            </ul>
-        </nav>
+        <!-- Puan Durumu -->
+        <section class="table-section">
+            <h2>Puan Durumu</h2>
+            <table class="puan-durumu">
+                <thead>
+                    <tr>
+                        <th>Sıra</th>
+                        <th>Takım</th>
+                        <th>O</th>
+                        <th>G</th>
+                        <th>B</th>
+                        <th>M</th>
+                        <th>A</th>
+                        <th>Y</th>
+                        <th>AV</th>
+                        <th>P</th>
+                    </tr>
+                </thead>
+                <tbody id="puanDurumu">
+                    <!-- Dinamik olarak JS ile dolacak -->
+                </tbody>
+            </table>
+        </section>
 
-        <main>
-            <section id="fixture">
-                <h2>Ön Eleme Fikstürü</h2>
-                <div class="fixture-grid">
-                    <!-- Maçlar buraya yüklenecek -->
-                </div>
-            </section>
-
-            <section id="standings">
-                <h2>Puan Tablosu</h2>
-                <table>
-                    <thead>
-                        <tr>
-                            <th>TAKIM</th>
-                            <th>O</th>
-                            <th>G</th>
-                            <th>B</th>
-                            <th>M</th>
-                            <th>P</th>
-                            <th>A</th>
-                        </tr>
-                    </thead>
-                    <tbody id="standings-body">
-                        <!-- Puan durumu buraya yüklenecek -->
-                    </tbody>
-                </table>
-            </section>
-
-            <section id="teams">
-                <h2>Takım Bilgileri</h2>
-                <div class="teams-container">
-                    <!-- Takım bilgileri buraya yüklenecek -->
-                </div>
-            </section>
-
-            <!-- Yeni Kurallar Bölümü -->
-            <section id="rules">
-                <h2>Turnuva Kuralları</h2>
-                <p><strong>Turnuva Başlangıç Tarihi:</strong> 12.10.2024</p>
-                <p>Fikstürü, canlı maçları, gol kralını ve sıralama tablosunu <a href="http://www.oradayiz.com">ORADAYİZ.COM</a> internet sitesi üzerinden takip edebilirsiniz.</p>
-
-                <h3>Eleme Turu Kuralları</h3>
-                <ul>
-                    <li>Turnuva, 64 kişi ile eleme turu şeklinde başlayacaktır.</li>
-                    <li>Oyuncular istedikleri takımı seçebileceklerdir.</li>
-                    <li>3 maçın 2'sini kazanan oyuncu bir üst tura çıkmaya hak kazanacaktır.</li>
-                    <li>Maçların devre süresi 5 dakika olacaktır.</li>
-                    <li>Eleme turları 32 oyuncu kalana kadar devam edecektir.</li>
-                    <li>Elenen oyuncular arasından en fazla gol atan 4 oyuncu bir üst tura çıkacaktır. Eşitlik olursa canlı kura çekimi yapılacaktır.</li>
-                </ul>
-
-                <h3>Üst Tura Geçiş Kuralları</h3>
-                <ul>
-                    <li>Üst tura çıkan oyuncuların takımları Şampiyonlar Ligi takımları arasından kura ile belirlenecektir.</li>
-                    <li>Önceki turnuvalarda şampiyon olan oyuncular 4. torbadan kuraya katılacak, en düşük yıldız seviyesindeki takımları seçeceklerdir.</li>
-                    <li>İstemezlerse Avrupa Ligi'nden takım seçebilirler.</li>
-                </ul>
-
-                <h3>Takım Seçimi ve Anlaşmazlıklar</h3>
-                <ul>
-                    <li>İki oyuncu aynı takımı seçmek isterse, 3 maç yapacaklar ve 2 maçı kazanan istediği takımı seçebilecektir.</li>
-                </ul>
-            </section>
-        </main>
-        <footer>
-            <p>&copy; 2024 Ora PlayStation</p>
-            <img src="ora_logo_düzgün1.svg" alt="Ora PlayStation Logo" class="footer-logo">
-        </footer>
+        <!-- Fikstür 
+        <section class="table-section">
+            <h2>Fikstür</h2>
+            <table class="fikstur">
+                <thead>
+                    <tr>
+                        <th>Tarih</th>
+                        <th>Takım 1</th>
+                        <th>Skor</th>
+                        <th>Takım 2</th>
+                    </tr>
+                </thead>
+                <tbody id="fikstur">
+                    -->
+        <!-- Dinamik olarak JS ile dolacak -->
+        </tbody>
+        </table>
+        </section>
     </div>
 
     <script src="script.js"></script>
