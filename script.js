@@ -32,7 +32,7 @@ const puanDurumu = [
     { sira: 30, takim: "Yusuf Kağan", logo: "https://upload.wikimedia.org/wikipedia/tr/6/6d/Tottenham_Hotspur.png", o: 0, g: 0, b: 0, m: 0, a: 0, y: 0, av: 0, p: 0 },
     { sira: 31, takim: "Uğur Güler", logo: "https://upload.wikimedia.org/wikipedia/tr/thumb/a/a2/Bayer_Leverkusen.png/225px-Bayer_Leverkusen.png", o: 0, g: 0, b: 0, m: 0, a: 0, y: 0, av: 0, p: 0 },
     { sira: 32, takim: "Bilal Gölbaşı", logo: "https://upload.wikimedia.org/wikipedia/tr/6/6d/Newcastle_United_crest.png", o: 0, g: 0, b: 0, m: 0, a: 0, y: 0, av: 0, p: 0 },
-    { sira: 33, takim: "Batuhan Temizer", logo: "https://upload.wikimedia.org/wikipedia/tr/thumb/a/a2/Bayer_Leverkusen.png/225px-Bayer_Leverkusen.png", o: 0, g: 0, b: 0, m: 0, a: 0, y: 0, av: 0, p: 0 },
+    { sira: 33, takim: "Batuhan Temizer", logo: "https://upload.wikimedia.org/wikipedia/tr/thumb/2/22/Sslazio.png/225px-Sslazio.png", o: 0, g: 0, b: 0, m: 0, a: 0, y: 0, av: 0, p: 0 },
     { sira: 34, takim: "Fatih Yılmaz", logo: "https://upload.wikimedia.org/wikipedia/tr/thumb/3/3f/150px-Liverpool_FC_logo.png/375px-150px-Liverpool_FC_logo.png", o: 0, g: 0, b: 0, m: 0, a: 0, y: 0, av: 0, p: 0 },
     { sira: 35, takim: "Tarık Enes", logo: "https://upload.wikimedia.org/wikipedia/tr/thumb/f/fc/Villarreal_CF_logo.png/225px-Villarreal_CF_logo.png", o: 0, g: 0, b: 0, m: 0, a: 0, y: 0, av: 0, p: 0 },
     { sira: 36, takim: "Batın Efe Yolcular", logo: "https://upload.wikimedia.org/wikipedia/tr/thumb/c/c5/Crystal_Palace_FC_logo_%282022%29.png/225px-Crystal_Palace_FC_logo_%282022%29.png", o: 0, g: 0, b: 0, m: 0, a: 0, y: 0, av: 0, p: 0 },
