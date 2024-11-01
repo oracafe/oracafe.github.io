@@ -144,7 +144,6 @@ const fikstur = [
     { tarih: "3 Kasım 2024 Pazar 12:00", takim1: "Ahmet Hakan Avan", skor: "vs", takim2: "Hasan Şefik" },
     { tarih: "3 Kasım 2024 Pazar 12:30", takim1: "Efe Çakıcı", skor: "vs", takim2: "Hüsam" },
     { tarih: "3 Kasım 2024 Pazar 12:30", takim1: "Burak Kotan", skor: "vs", takim2: "Yiğit Emre" },
-    { tarih: "3 Kasım 2024 Pazar 12:00", takim1: "Erdem Deka", skor: "vs", takim2: "Burak Kotan" },
 
 
 
