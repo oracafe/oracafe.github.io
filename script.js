@@ -34,7 +34,7 @@ const puanDurumu = [
     { sira: 32, takim: "Bilal Gölbaşı", logo: "https://upload.wikimedia.org/wikipedia/tr/6/6d/Newcastle_United_crest.png", o: 0, g: 0, b: 0, m: 0, a: 0, y: 0, av: 0, p: 0 },
     { sira: 33, takim: "Batuhan Temizer", logo: "https://upload.wikimedia.org/wikipedia/tr/thumb/2/22/Sslazio.png/225px-Sslazio.png", o: 0, g: 0, b: 0, m: 0, a: 0, y: 0, av: 0, p: 0 },
     { sira: 34, takim: "Fatih Yılmaz", logo: "https://upload.wikimedia.org/wikipedia/tr/thumb/3/3f/150px-Liverpool_FC_logo.png/375px-150px-Liverpool_FC_logo.png", o: 0, g: 0, b: 0, m: 0, a: 0, y: 0, av: 0, p: 0 },
-    { sira: 35, takim: "Tarık Enes", logo: "https://upload.wikimedia.org/wikipedia/tr/thumb/f/fc/Villarreal_CF_logo.png/225px-Villarreal_CF_logo.png", o: 0, g: 0, b: 0, m: 0, a: 0, y: 0, av: 0, p: 0 },
+    { sira: 35, takim: "Tarık Enez", logo: "https://upload.wikimedia.org/wikipedia/tr/thumb/f/fc/Villarreal_CF_logo.png/225px-Villarreal_CF_logo.png", o: 0, g: 0, b: 0, m: 0, a: 0, y: 0, av: 0, p: 0 },
     { sira: 36, takim: "Batın Efe Yolcular", logo: "https://upload.wikimedia.org/wikipedia/tr/thumb/c/c5/Crystal_Palace_FC_logo_%282022%29.png/225px-Crystal_Palace_FC_logo_%282022%29.png", o: 0, g: 0, b: 0, m: 0, a: 0, y: 0, av: 0, p: 0 },
 
 ];
@@ -84,12 +84,49 @@ const fikstur = [
     { tarih: "2 Kasım 2024 Cumartesi 12:00", takim1: "Mustafa Kemal Keylan", skor: "vs", takim2: "Ahmet Kubilay Şeker" },
     { tarih: "2 Kasım 2024 Cumartesi 12:00", takim1: "Yusuf Korkmaz", skor: "vs", takim2: "Furkan Doğan" },
     { tarih: "2 Kasım 2024 Cumartesi 12:00", takim1: "Ahmet Hakan Avan", skor: "vs", takim2: "Batuhan Akın" },
-    { tarih: "2 Kasım 2024 Cumartesi 12:00", takim1: "Mahmut Enes Göze", skor: "vs", takim2: "Ahmet Baran Çifci" },
+    { tarih: "2 Kasım 2024 Cumartesi 12:00", takim1: "Mahmut Enes Göze", skor: "vs", takim2: "Ahmet Baran Çifçi" },
     { tarih: "2 Kasım 2024 Cumartesi 12:00", takim1: "Fatih Yılmaz", skor: "vs", takim2: "Selahattin Eyüp Gürkan" },
     { tarih: "2 Kasım 2024 Cumartesi 12:00", takim1: "Emre kaya", skor: "vs", takim2: "Bilal Gölbaşı" },
     { tarih: "2 Kasım 2024 Cumartesi 12:00", takim1: "Egemen Demirel", skor: "vs", takim2: "Uğur Güler" },
     { tarih: "2 Kasım 2024 Cumartesi 12:00", takim1: "Berat Gölpınar", skor: "vs", takim2: "Yusuf Paldır" },
     { tarih: "2 Kasım 2024 Cumartesi 12:00", takim1: "Yiğit Emre", skor: "vs", takim2: "Yusuf Kağan" },
+    { tarih: "2 Kasım 2024 Cumartesi 12:30", takim1: "Ahmet Hakan Avan", skor: "vs", takim2: "Uğur Güler" },
+    { tarih: "2 Kasım 2024 Cumartesi 12:30", takim1: "Batuhan Temizer", skor: "vs", takim2: "Batuhan Akın" },
+    { tarih: "2 Kasım 2024 Cumartesi 12:30", takim1: "Burak Pek", skor: "vs", takim2: "Ahmet Baran Çifçi" },
+    { tarih: "2 Kasım 2024 Cumartesi 13.00", takim1: "EL Agep", skor: "vs", takim2: "Bilal Gölbaşı" },
+    { tarih: "2 Kasım 2024 Cumartesi 13.00", takim1: "Talha Aydın", skor: "vs", takim2: "Ahmet Kubilay Şeker" },
+    { tarih: "2 Kasım 2024 Cumartesi 13.00", takim1: "Mehmet Emin Mert", skor: "vs", takim2: "Batuhan Temizer" },
+    { tarih: "2 Kasım 2024 Cumartesi 13.00", takim1: "Mehmet Emin Mert", skor: "vs", takim2: "Yusuf Kağan Hasbek" },
+
+    { tarih: "3 Kasım 2024 Pazar 10:00", takim1: "Emir Afşar", skor: "vs", takim2: "Furkan Doğan" },
+    { tarih: "3 Kasım 2024 Pazar 10:00", takim1: "Volkan Gökçe", skor: "vs", takim2: "Yusuf Paldır" },
+    { tarih: "3 Kasım 2024 Pazar 10:00", takim1: "Muhammed Talha Ayvalı", skor: "vs", takim2: "Selahattin Eyüp Gürkan" },
+    { tarih: "3 Kasım 2024 Pazar 10:00", takim1: "Hüsam", skor: "vs", takim2: "Uğur Güler" },
+    { tarih: "3 Kasım 2024 Pazar 10:00", takim1: "Tarık Enez", skor: "vs", takim2: "Mustafa Kemal Keylan" },
+    { tarih: "3 Kasım 2024 Pazar 10:00", takim1: "Yusuf Korkmaz", skor: "vs", takim2: "Erdem Deka" },
+    { tarih: "3 Kasım 2024 Pazar 10:00", takim1: "Ahmet Hakan Avan", skor: "vs", takim2: "Efe Çakıcı" },
+    { tarih: "3 Kasım 2024 Pazar 10:00", takim1: "Ayberk", skor: "vs", takim2: "Mahmut Enes Göze" },
+    { tarih: "3 Kasım 2024 Pazar 10:00", takim1: "Fatih Yılmaz", skor: "vs", takim2: "Karahan Ünverdi" },
+
+    { tarih: "3 Kasım 2024 Pazar 10:30", takim1: "Burak Kotan", skor: "vs", takim2: "Emre Kaya" },
+    { tarih: "3 Kasım 2024 Pazar 10:30", takim1: "Hasan Şefik ", skor: "vs", takim2: "Egemen Demirel" },
+    { tarih: "3 Kasım 2024 Pazar 10:30", takim1: "Berat Gölpınar", skor: "vs", takim2: "Kaan Gülbil" },
+    { tarih: "3 Kasım 2024 Pazar 10:30", takim1: "Yiğit Emre", skor: "vs", takim2: "Abdülkerim Karademir" },
+    { tarih: "3 Kasım 2024 Pazar 10:30", takim1: "Erdem Deka", skor: "vs", takim2: "Batuhan Temizer" },
+    { tarih: "3 Kasım 2024 Pazar 10:30", takim1: "El Agep", skor: "vs", takim2: "Efe Çakıcı" },
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
