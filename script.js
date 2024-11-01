@@ -11,10 +11,10 @@ const puanDurumu = [
     { sira: 9, takim: "Furkan Doğan", logo: "https://upload.wikimedia.org/wikipedia/tr/6/61/Sporting_Lizbon_logo.png?20100916061141", o: 0, g: 0, b: 0, m: 0, a: 0, y: 0, av: 0, p: 0 },
     { sira: 10, takim: "Talha Aydın", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Juventus_FC_-_pictogram_black_%28Italy%2C_2017%29.svg/225px-Juventus_FC_-_pictogram_black_%28Italy%2C_2017%29.svg.png", o: 0, g: 0, b: 0, m: 0, a: 0, y: 0, av: 0, p: 0 },
     { sira: 11, takim: "Yiğit Emre", logo: "https://upload.wikimedia.org/wikipedia/tr/4/47/FC_Barcelona.png?20240504160644", o: 0, g: 0, b: 0, m: 0, a: 0, y: 0, av: 0, p: 0 },
-    { sira: 12, takim: "Ayberk ", logo: "https://upload.wikimedia.org/wikipedia/tr/thumb/b/b6/Manchester_United_FC_logo.png/225px-Manchester_United_FC_logo.png", o: 0, g: 0, b: 0, m: 0, a: 0, y: 0, av: 0, p: 0 },
+    { sira: 12, takim: "Ayberk ", logo: "https://upload.wikimedia.org/wikipedia/tr/thumb/d/d9/Athleticbilbao.png/225px-Athleticbilbao.png", o: 0, g: 0, b: 0, m: 0, a: 0, y: 0, av: 0, p: 0 },
     { sira: 13, takim: "Burak Pek", logo: "https://upload.wikimedia.org/wikipedia/tr/thumb/1/1a/Atl%C3%A9tico_Madrid_logo.png/225px-Atl%C3%A9tico_Madrid_logo.png", o: 0, g: 0, b: 0, m: 0, a: 0, y: 0, av: 0, p: 0 },
-    { sira: 14, takim: "Abdülkerim Karademir", logo: "https://upload.wikimedia.org/wikipedia/en/thumb/a/ac/Al_Nassr_FC_Logo.svg/210px-Al_Nassr_FC_Logo.svg.png", o: 0, g: 0, b: 0, m: 0, a: 0, y: 0, av: 0, p: 0 },
-    { sira: 15, takim: "Erdem Deka", logo: "https://upload.wikimedia.org/wikipedia/tr/thumb/3/33/Real_Sociedad.png/225px-Real_Sociedad.png", o: 0, g: 0, b: 0, m: 0, a: 0, y: 0, av: 0, p: 0 },
+    { sira: 14, takim: "Abdülkerim Karademir", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Galatasaray_Star_Logo.png/225px-Galatasaray_Star_Logo.png", o: 0, g: 0, b: 0, m: 0, a: 0, y: 0, av: 0, p: 0 },
+    { sira: 15, takim: "Erdem Deka", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Logo_of_Be%C5%9Fikta%C5%9F_JK.svg/330px-Logo_of_Be%C5%9Fikta%C5%9F_JK.svg.png", o: 0, g: 0, b: 0, m: 0, a: 0, y: 0, av: 0, p: 0 },
     { sira: 16, takim: "Egemen Demirel", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/225px-Borussia_Dortmund_logo.svg.png", o: 0, g: 0, b: 0, m: 0, a: 0, y: 0, av: 0, p: 0 },
     { sira: 17, takim: "Burak Kotan", logo: "https://upload.wikimedia.org/wikipedia/tr/8/88/Olyon.png?20091024130812", o: 0, g: 0, b: 0, m: 0, a: 0, y: 0, av: 0, p: 0 },
     { sira: 18, takim: "Ahmet Baran Çiftçi", logo: "https://upload.wikimedia.org/wikipedia/tr/thumb/f/fc/Westham_logo.png/225px-Westham_logo.png", o: 0, g: 0, b: 0, m: 0, a: 0, y: 0, av: 0, p: 0 },
@@ -23,7 +23,7 @@ const puanDurumu = [
     { sira: 21, takim: "Selahattin Eyüp Gürkan", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/PSV_Eindhoven_-_Philips_Stadion_-_Kleedkamer_Welkom_-_Cropped_Logo.jpg/225px-PSV_Eindhoven_-_Philips_Stadion_-_Kleedkamer_Welkom_-_Cropped_Logo.jpg", o: 0, g: 0, b: 0, m: 0, a: 0, y: 0, av: 0, p: 0 },
     { sira: 22, takim: "Hasan Şefik", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Al_Hilal_SFC_Logo.svg/225px-Al_Hilal_SFC_Logo.svg.png", o: 0, g: 0, b: 0, m: 0, a: 0, y: 0, av: 0, p: 0 },
     { sira: 23, takim: "Efe Çakıcı", logo: "https://upload.wikimedia.org/wikipedia/tr/thumb/8/86/Fenerbah%C3%A7e_SK.png/300px-Fenerbah%C3%A7e_SK.png", o: 0, g: 0, b: 0, m: 0, a: 0, y: 0, av: 0, p: 0 },
-    { sira: 24, takim: "Karahan Ünverdi", logo: "https://upload.wikimedia.org/wikipedia/tr/thumb/6/68/AFC_Ajax_logo.png/225px-AFC_Ajax_logo.png", o: 0, g: 0, b: 0, m: 0, a: 0, y: 0, av: 0, p: 0 },
+    { sira: 24, takim: "Karahan Ünverdi", logo: "https://upload.wikimedia.org/wikipedia/tr/thumb/b/b6/Manchester_United_FC_logo.png/225px-Manchester_United_FC_logo.png", o: 0, g: 0, b: 0, m: 0, a: 0, y: 0, av: 0, p: 0 },
     { sira: 25, takim: "Emir Afşar", logo: "https://upload.wikimedia.org/wikipedia/tr/thumb/9/92/Arsenal_Football_Club.png/225px-Arsenal_Football_Club.png", o: 0, g: 0, b: 0, m: 0, a: 0, y: 0, av: 0, p: 0 },
     { sira: 26, takim: "Muhammed Talha Ayvalı", logo: "https://upload.wikimedia.org/wikipedia/tr/thumb/1/13/AS_Roma_Logo_2017.png/225px-AS_Roma_Logo_2017.png", o: 0, g: 0, b: 0, m: 0, a: 0, y: 0, av: 0, p: 0 },
     { sira: 27, takim: "Ahmet Kubilay Şeker", logo: "https://upload.wikimedia.org/wikipedia/tr/thumb/a/a3/Lilleoscyeni.png/300px-Lilleoscyeni.png", o: 0, g: 0, b: 0, m: 0, a: 0, y: 0, av: 0, p: 0 },
@@ -109,11 +109,71 @@ const fikstur = [
     { tarih: "3 Kasım 2024 Pazar 10:00", takim1: "Fatih Yılmaz", skor: "vs", takim2: "Karahan Ünverdi" },
 
     { tarih: "3 Kasım 2024 Pazar 10:30", takim1: "Burak Kotan", skor: "vs", takim2: "Emre Kaya" },
-    { tarih: "3 Kasım 2024 Pazar 10:30", takim1: "Hasan Şefik ", skor: "vs", takim2: "Egemen Demirel" },
+    { tarih: "3 Kasım 2024 Pazar 10:30", takim1: "Kaan Gülbil ", skor: "vs", takim2: "Egemen Demirel" },
     { tarih: "3 Kasım 2024 Pazar 10:30", takim1: "Berat Gölpınar", skor: "vs", takim2: "Kaan Gülbil" },
     { tarih: "3 Kasım 2024 Pazar 10:30", takim1: "Yiğit Emre", skor: "vs", takim2: "Abdülkerim Karademir" },
     { tarih: "3 Kasım 2024 Pazar 10:30", takim1: "Erdem Deka", skor: "vs", takim2: "Batuhan Temizer" },
-    { tarih: "3 Kasım 2024 Pazar 10:30", takim1: "El Agep", skor: "vs", takim2: "Efe Çakıcı" },
+    { tarih: "3 Kasım 2024 Pazar 10:30", takim1: "Burak Pek", skor: "vs", takim2: "Efe Çakıcı" },
+    { tarih: "3 Kasım 2024 Pazar 10:30", takim1: "El Agep", skor: "vs", takim2: "Kaan Gülbil" },
+    { tarih: "3 Kasım 2024 Pazar 10:30", takim1: "Talha Aydın", skor: "vs", takim2: "Tarık Enez" },
+    { tarih: "3 Kasım 2024 Pazar 10:30", takim1: "Mehmet Emin Mert", skor: "vs", takim2: "Karahan Ünverdi" },
+
+    { tarih: "3 Kasım 2024 Pazar 11:00", takim1: "Emir Afşar", skor: "vs", takim2: "Burak Kotan" },
+    { tarih: "3 Kasım 2024 Pazar 11:00", takim1: "Volkan Gökçe", skor: "vs", takim2: "Hasan Şefik" },
+    { tarih: "3 Kasım 2024 Pazar 11:00", takim1: "Muhammed Talha Ayvalı", skor: "vs", takim2: "Abdülkerim Karademir" },
+    { tarih: "3 Kasım 2024 Pazar 11:00", takim1: "Hüsam", skor: "vs", takim2: "Ayberk" },
+    { tarih: "3 Kasım 2024 Pazar 11:00", takim1: "Batuhan Akın", skor: "vs", takim2: "Erdem Deka" },
+    { tarih: "3 Kasım 2024 Pazar 11:00", takim1: "Furkan Doğan", skor: "vs", takim2: "Karahan Ünverdi" },
+    { tarih: "3 Kasım 2024 Pazar 11:00", takim1: "Selahattin Eyüp Gürkan", skor: "vs", takim2: "Ayberk" },
+    { tarih: "3 Kasım 2024 Pazar 11:00", takim1: "Kaan Gülbil", skor: "vs", takim2: "Ahmet Kubilay Şeker" },
+    { tarih: "3 Kasım 2024 Pazar 11:00", takim1: "Yusuf Kağan", skor: "vs", takim2: "Tarık Enez" },
+
+
+    { tarih: "3 Kasım 2024 Pazar 11:30", takim1: "Uğur Güler", skor: "vs", takim2: "Burak Kotan" },
+    { tarih: "3 Kasım 2024 Pazar 11:30", takim1: "Ahmet Baran Çiftci", skor: "vs", takim2: "Abdülkerim Karademir" },
+    { tarih: "3 Kasım 2024 Pazar 11:30", takim1: "Bilal Gölbaşı", skor: "vs", takim2: "Hasan Şefik" },
+    { tarih: "3 Kasım 2024 Pazar 11:30", takim1: "Yusuf Paldır", skor: "vs", takim2: "Efe Çakıcı" },
+    { tarih: "3 Kasım 2024 Pazar 11:30", takim1: "Ayberk", skor: "vs", takim2: "Fatih Yılmaz" },
+    { tarih: "3 Kasım 2024 Pazar 11:30", takim1: "Mahmut Enes Göze", skor: "vs", takim2: "Tarık Enez" },
+
+    { tarih: "3 Kasım 2024 Pazar 12:00", takim1: "Egemen Demirel", skor: "vs", takim2: "Karahan Ünverdi" },
+
+    { tarih: "3 Kasım 2024 Pazar 12:00", takim1: "Yusuf Korkmaz", skor: "vs", takim2: "Efe Çakıcı" },
+    { tarih: "3 Kasım 2024 Pazar 12:00", takim1: "Burak Kotan", skor: "vs", takim2: "Mehmet Emin Mert" },
+    { tarih: "3 Kasım 2024 Pazar 12:00", takim1: "Erdem Deka", skor: "vs", takim2: "Emre Kaya" },
+    { tarih: "3 Kasım 2024 Pazar 12:00", takim1: "Ahmet Hakan Avan", skor: "vs", takim2: "Hasan Şefik" },
+    { tarih: "3 Kasım 2024 Pazar 12:30", takim1: "Efe Çakıcı", skor: "vs", takim2: "Hüsam" },
+    { tarih: "3 Kasım 2024 Pazar 12:30", takim1: "Burak Kotan", skor: "vs", takim2: "Yiğit Emre" },
+    { tarih: "3 Kasım 2024 Pazar 12:00", takim1: "Erdem Deka", skor: "vs", takim2: "Burak Kotan" },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
