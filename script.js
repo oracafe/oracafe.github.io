@@ -1,6 +1,6 @@
-x// Puan Durumu Verileri (Dinamik Veriler)
+// Puan Durumu Verileri (Dinamik Veriler)takim1
 const puanDurumu = [
-       { sira: 1, takim: "Mahmut Enes Göze", logo: "https://upload.wikimedia.org/wikipedia/tr/thumb/f/f4/PSG_logosu.svg/422px-PSG_logosu.svg.png?20210520090551", o: 0, g: 0, b: 0, m: 0, a: 0, y: 0, av: 0, p: 0 },
+    { sira: 1, takim: "Mahmut Enes Göze", logo: "https://upload.wikimedia.org/wikipedia/tr/thumb/f/f4/PSG_logosu.svg/422px-PSG_logosu.svg.png?20210520090551", o: 0, g: 0, b: 0, m: 0, a: 0, y: 0, av: 0, p: 0 },
     { sira: 2, takim: "Emre Kaya", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/FC_Internazionale_Milano_2021.svg/768px-FC_Internazionale_Milano_2021.svg.png", o: 0, g: 0, b: 0, m: 0, a: 0, y: 0, av: 0, p: 0 },
     { sira: 3, takim: "Mustafa Kemal Keylan", logo: "https://upload.wikimedia.org/wikipedia/tr/9/98/Real_Madrid.png", o: 0, g: 0, b: 0, m: 0, a: 0, y: 0, av: 0, p: 0 },
     { sira: 4, takim: "Berat Gölpınar ", logo: "https://upload.wikimedia.org/wikipedia/tr/f/fd/RB_Leipzig.png?20150823162240", o: 0, g: 0, b: 0, m: 0, a: 0, y: 0, av: 0, p: 0 },
@@ -36,6 +36,8 @@ const puanDurumu = [
     { sira: 34, takim: "Fatih Yılmaz", logo: "https://upload.wikimedia.org/wikipedia/tr/thumb/3/3f/150px-Liverpool_FC_logo.png/375px-150px-Liverpool_FC_logo.png", o: 0, g: 0, b: 0, m: 0, a: 0, y: 0, av: 0, p: 0 },
     { sira: 35, takim: "Tarık Enez", logo: "https://upload.wikimedia.org/wikipedia/tr/thumb/3/33/Real_Sociedad.png/225px-Real_Sociedad.png", o: 0, g: 0, b: 0, m: 0, a: 0, y: 0, av: 0, p: 0 },
     { sira: 36, takim: "Kaan Gülbil", logo: "https://upload.wikimedia.org/wikipedia/en/thumb/a/ac/Al_Nassr_FC_Logo.svg/210px-Al_Nassr_FC_Logo.svg.png", o: 0, g: 0, b: 0, m: 0, a: 0, y: 0, av: 0, p: 0 },
+
+
 ];
 
 // Fikstür Verileri (Dinamik Veriler)
@@ -165,6 +167,54 @@ const fikstur = [
 
     { tarih: "4 Kasım 2024 Pazartesi 19:00", takim1: "Burak Kotan ", skor: "vs", takim2: "Yusuf Kağan Hasbek" },
     { tarih: "4 Kasım 2024 Pazartesi 19:00", takim1: "Ayberk", skor: "vs", takim2: "Batuhan Akın" },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
