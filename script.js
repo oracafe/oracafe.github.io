@@ -1,6 +1,6 @@
 x// Puan Durumu Verileri (Dinamik Veriler)
 const puanDurumu = [
-    { sira: 1, takim: "Mahmut Enes Göze", logo: "https://upload.wikimedia.org/wikipedia/tr/thumb/f/f4/PSG_logosu.svg/422px-PSG_logosu.svg.png?20210520090551", o: 0, g: 0, b: 0, m: 0, a: 0, y: 0, av: 0, p: 0 },
+       { sira: 1, takim: "Mahmut Enes Göze", logo: "https://upload.wikimedia.org/wikipedia/tr/thumb/f/f4/PSG_logosu.svg/422px-PSG_logosu.svg.png?20210520090551", o: 0, g: 0, b: 0, m: 0, a: 0, y: 0, av: 0, p: 0 },
     { sira: 2, takim: "Emre Kaya", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/FC_Internazionale_Milano_2021.svg/768px-FC_Internazionale_Milano_2021.svg.png", o: 0, g: 0, b: 0, m: 0, a: 0, y: 0, av: 0, p: 0 },
     { sira: 3, takim: "Mustafa Kemal Keylan", logo: "https://upload.wikimedia.org/wikipedia/tr/9/98/Real_Madrid.png", o: 0, g: 0, b: 0, m: 0, a: 0, y: 0, av: 0, p: 0 },
     { sira: 4, takim: "Berat Gölpınar ", logo: "https://upload.wikimedia.org/wikipedia/tr/f/fd/RB_Leipzig.png?20150823162240", o: 0, g: 0, b: 0, m: 0, a: 0, y: 0, av: 0, p: 0 },
@@ -34,9 +34,8 @@ const puanDurumu = [
     { sira: 32, takim: "Bilal Gölbaşı", logo: "https://upload.wikimedia.org/wikipedia/tr/6/6d/Newcastle_United_crest.png", o: 0, g: 0, b: 0, m: 0, a: 0, y: 0, av: 0, p: 0 },
     { sira: 33, takim: "Batuhan Temizer", logo: "https://upload.wikimedia.org/wikipedia/tr/thumb/2/22/Sslazio.png/225px-Sslazio.png", o: 0, g: 0, b: 0, m: 0, a: 0, y: 0, av: 0, p: 0 },
     { sira: 34, takim: "Fatih Yılmaz", logo: "https://upload.wikimedia.org/wikipedia/tr/thumb/3/3f/150px-Liverpool_FC_logo.png/375px-150px-Liverpool_FC_logo.png", o: 0, g: 0, b: 0, m: 0, a: 0, y: 0, av: 0, p: 0 },
-    { sira: 35, takim: "Tarık Enez", logo: "https://upload.wikimedia.org/wikipedia/tr/thumb/f/fc/Villarreal_CF_logo.png/225px-Villarreal_CF_logo.png", o: 0, g: 0, b: 0, m: 0, a: 0, y: 0, av: 0, p: 0 },
-    { sira: 36, takim: "Batın Efe Yolcular", logo: "https://upload.wikimedia.org/wikipedia/tr/thumb/c/c5/Crystal_Palace_FC_logo_%282022%29.png/225px-Crystal_Palace_FC_logo_%282022%29.png", o: 0, g: 0, b: 0, m: 0, a: 0, y: 0, av: 0, p: 0 },
-
+    { sira: 35, takim: "Tarık Enez", logo: "https://upload.wikimedia.org/wikipedia/tr/thumb/3/33/Real_Sociedad.png/225px-Real_Sociedad.png", o: 0, g: 0, b: 0, m: 0, a: 0, y: 0, av: 0, p: 0 },
+    { sira: 36, takim: "Kaan Gülbil", logo: "https://upload.wikimedia.org/wikipedia/en/thumb/a/ac/Al_Nassr_FC_Logo.svg/210px-Al_Nassr_FC_Logo.svg.png", o: 0, g: 0, b: 0, m: 0, a: 0, y: 0, av: 0, p: 0 },
 ];
 
 // Fikstür Verileri (Dinamik Veriler)
